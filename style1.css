@@ -1,0 +1,259 @@
+* {
+    /* padding: 0px;
+    margin: 0px; */
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0 !important;
+    padding: 0;
+    background-color: #000;
+}
+
+.e1 {
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 60px;
+}
+.n1{
+    color: yellow;
+}
+
+header {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px; 
+    width: 100%;
+    height: 70px;
+    background: #000;
+    z-index: 1;
+    transition: 0.6s;
+    
+}
+
+.page {
+    float: right;
+    /* margin-top: 31px; */
+}
+ul {
+    margin-bottom: 5px;
+    margin-right: 60px;
+    list-style: none;
+}
+li {
+    font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.r1{
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    background: rgba(116, 114, 114, 0.6);
+}
+.btn1{
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: yellow;
+    color: #fff;
+    background: #000;
+}
+.btn2{
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    border-color: violet;
+    color: #fff;
+    background: #000;
+}
+.a {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    text-decoration: none;
+    color: grey;
+    margin-bottom: 7px;
+}
+.a:hover{
+    color: yellow;
+    transition: 0.6s;
+}
+.a:focus{
+    color: yellow; 
+}
+section::before {
+    display: table;
+    content: " ";
+}
+section::after {
+    display: table;
+    content: " ";
+}
+.section{
+    padding: 100px;
+    height: 600px;
+}
+
+.anim_title{
+    padding: 170px 100px;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(bacground_image/1680121210447.jpg);
+    background-size: cover;
+    color: #fff;
+    height: 720px;
+}
+.post1{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.e2{
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: -4px;
+}
+.e3{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600; 
+    margin-top: -55px;
+}
+.n2{
+    font-size: 30px;
+}
+.btn3 .col{
+    background: #000;
+    color: rgb(255, 255, 230);
+    border-radius: 5px;
+    width: 60px;
+    height: 25px;
+}
+.btn3 .col:hover{
+    background: yellow;
+    color: #000;
+}
+.btn3 .col:focus{
+    background: yellow;
+    color: #000; 
+}
+section::before {
+    display: table;
+    content: " ";
+}
+section::after {
+    display:table;
+    content: " ";
+}
+.btn4{
+    width: 300px;
+    height: 40px;
+    background: #000;
+    font-size: 30px;
+    color: #fff;
+    border-color: yellow;
+    text-transform: uppercase;
+    border-radius: 6px;
+
+}
+.icon1 img{
+    border-radius: 20px;
+    width: 720px;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #marque #coupe
+{
+    font-size: 1.7em;
+    margin: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#v-coup
+{
+    border: 2px solid #000;
+    margin: 5%;
+    padding: 20px;
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #000;
+    background-color: rgb(250, 244, 244);
+    /*display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#v-coup:hover
+{
+    overflow-x: scroll;
+     overflow-y: scroll; 
+}
+#v-coup>div>img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #200304;
+    transition: 0.4s;
+}
+#v-coup>div>img:hover{
+    transform: scale(1.19);
+    transition: 0.4s;
+}
+
+button {
+    margin: 10px 0px 10px 30%;
+    font-size: 1.2em;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #b21d22;
+    color: #fff;
+}
+
+#v-coup>div{
+    margin: 30px;
+}
+
+#v-coup>div>p{
+    border: 1px solid #000;
+    font-size: 1.1em;
+}
+#v-coup h3{
+    font-size: 1.5em;
+    color: darkred;
+} */
